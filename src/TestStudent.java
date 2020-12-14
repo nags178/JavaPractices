@@ -1,6 +1,6 @@
 class Student{
     int id;
-    String name;
+    private String name;
     void display(){
         System.out.println("In method");
     }
@@ -25,7 +25,7 @@ class Student{
     }
 }
 
-public class TestStudent {
+public class TestStudent extends Student {
      int no;
      public TestStudent(){
          no = 5;
@@ -35,15 +35,15 @@ public class TestStudent {
 
     public static void main(String[] args) {
         
-      //  TestStudent testStudent = new TestStudent();
-     //   System.out.println(testStudent.no);
+        TestStudent testStudent = new TestStudent();
+       System.out.println(testStudent.no );
 
        
 
-       Student studentObj = new Student("Jameema", 1);
-       Student studentObj2 = new Student(1, "Nag", "Tutor");
-       System.out.println(studentObj.id+"----"+studentObj.name);
-       studentObj.display();
+      /// Student studentObj = new Student("Jameema", 1);
+      // Student studentObj2 = new Student(1, "Nag", "Tutor");
+     //  System.out.println(studentObj.id+"----"+studentObj.name);
+     //  studentObj.display();
        
     }
         
