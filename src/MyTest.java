@@ -23,11 +23,9 @@ public class MyTest{
         default: 
         System.out.println("no match");
         break;
-}
+        }
+    }    
            
-         
-        
-    }
 
     void displayContent(){
         int i = 1;
