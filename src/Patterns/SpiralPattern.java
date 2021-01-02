@@ -1,3 +1,5 @@
+package Patterns;
+
 public class SpiralPattern {
     /*1. Create a 2D array of size n
     2. Store the boundary of the array in boundary variable. Initially it will be n-1 and thereafter it changes after every rotation.
@@ -32,6 +34,7 @@ public class SpiralPattern {
   
             // Assign the value 
             matrix[row][col] = i; 
+           // System.out.print(i);
   
             // switch-case to determine the next index 
             switch (move) { 

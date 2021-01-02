@@ -1,3 +1,5 @@
+package Patterns;
+
 public class RepeatPattern {
     public static void main(String[] args) {  
         int lines=10;  

@@ -1,4 +1,6 @@
-public class Pattern{
+package Patterns;
+
+public class AlphabetPattern30{
     public static void main(String[] args)
     {
        int rows = 5;
@@ -22,7 +24,7 @@ public class Pattern{
            System.out.println();
         }
         
-      /*  for(int i=rows-1;i>=0 ;i--)
+        for(int i=rows-1;i>=0 ;i--)
         {
             for(int j=0;j<=rows-i;j++)
             {
@@ -38,7 +40,7 @@ public class Pattern{
                     System.out.print((char)(alphabet+l));
             }
            System.out.println();
-        }*/
+        }
         
     }
 }
