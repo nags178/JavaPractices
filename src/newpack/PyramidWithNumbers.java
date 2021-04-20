@@ -2,6 +2,7 @@ package newpack;
 
 public class PyramidWithNumbers {
         public static void main(String[] args) {
+          MyPackTest myTest = new MyPackTest();
           int rows = 5, k = 0, count = 0, count1 = 0;
       
           for (int i = 1; i <= rows; i++) {
