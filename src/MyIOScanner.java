@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class MyIOScanner {
     public static void main(String args[]){
         Scanner sc= new Scanner(System.in);
-        int num=validatePositiveNumber(sc);
+         int num = validatePositiveNumber(sc);
         int k = validatePositiveNumber(sc);
         
-       /*  int num;
-          do 
+        // int num=0;
+       /*   do 
         {
             System.out.println("Enter the positive number");
             while (!sc.hasNextInt())
@@ -17,14 +17,14 @@ public class MyIOScanner {
             }
             num = sc.nextInt();
         } while (num <=0);
- */
-        System.out.println("It's a number: "+ num+" K value="+k);  
+ 
+        System.out.println("It's a number: "+ num);  */
     
         int r, sum=0,
         temp=num; 
-        String s="hello";
-        s="helloworld";
-        System.out.println(s);
+       // String s="hello";
+       // s="helloworld";
+      //  System.out.println(s);
          while (num != 0)
          {
              r=num%10;

@@ -1,6 +1,6 @@
 package Patterns;
 
-public class SpiralPattern {
+class SpiralPattern {
     /*1. Create a 2D array of size n
     2. Store the boundary of the array in boundary variable. Initially it will be n-1 and thereafter it changes after every rotation.
     3. Store the size left for the spiral printing in variable sizeLeft. Initially it will be n-1 and thereafter it will decrease by 1 after every 2 rotations.
