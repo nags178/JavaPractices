@@ -6,7 +6,7 @@ public class InheritanceDemo extends TestPattern {
     int a = 100;
     
     public void display(){
-        System.out.println("In child class my display method"+this.a+"  "+super.a);
+        System.out.println("In super class my display method"+this.a+"  "+super.a);
     }
 
     static public void myMsg(){
