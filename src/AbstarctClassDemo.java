@@ -26,27 +26,33 @@ abstract class MyAbstractClass{
         System.out.println(i);
     }
 
-    public static void main(String[] args) {
-        MyAbstractClass.myMsg();
-        AbstarctClassDemo absDemoObj = new AbstarctClassDemo(30);
-        absDemoObj.myAbstractMethod();
-
-    }
-
+   
 }
 
-public class AbstarctClassDemo extends MyAbstractClass{
+interface MultiInterface1{
+    void multiInfo();
+}
 
-    AbstarctClassDemo(int i){
-        super(i);
-    }
+abstract class NewAbstractClass extends MyAbstractClass implements MultiInterface1 {
+    int a = 20;
+
+    
 
     void myAbstractMethod(){
         System.out.println("In child abstract implementation");
     }
 
+   
+    abstract void newMethod();
+
+}
+
+
+
+public class AbstarctClassDemo extends NewAbstractClass{
+
     void myAbstractMethod(int a){
-        
+
     }
 
     int sum(int a, int b){
@@ -54,10 +60,22 @@ public class AbstarctClassDemo extends MyAbstractClass{
         return a+b;
     }
 
+
+    void newMethod(){
+        System.out.println("In new method");
+    }
+
+    
     public static void main(String[] args) {
-        AbstarctClassDemo absObj = new AbstarctClassDemo(20);
+        AbstarctClassDemo absObj = new AbstarctClassDemo();
         absObj.display();
         absObj.myAbstractMethod();
         System.out.println(absObj.sum(10, 20));
+    }
+
+    @Override
+    public void multiInfo() {
+        // TODO Auto-generated method stub
+        
     }
 }
