@@ -7,7 +7,7 @@ public class RightPascalTriangle
     public static void main(String[] args) 
     {
         Scanner obj=new Scanner(System.in);
-        // MY INPUT NUMBER VALIDATION
+        // MY INPUT NUMBER VALIDATION MENTIONED BELOW
         int n;
         do 
         {
@@ -19,7 +19,7 @@ public class RightPascalTriangle
             }
             n=obj.nextInt();
         } while (n <= 0);
-        System.out.println("YES IT IS POSITIVE NUMBER and the number is : " + n);
+        System.out.println("YES IT IS POSITIVE NUMBER AND ENTERED NUMBER : " + n);
         
         //LOGIC
         for(int i=1;i<=n;i++)
