@@ -11,7 +11,7 @@ public class RightPascalTriangle
         int n;
         do 
         {
-            System.out.println("ENTER YOUR NUMBER");
+            System.out.println("ENTER YOUR NUMBER(intger number)");
             while (!obj.hasNextInt()) 
             {
                 System.out.println("THIS IS NOT INTEGER VALUE.PLEASE ENTER POSITIVE NUMBER: ");
@@ -21,7 +21,7 @@ public class RightPascalTriangle
         } while (n <= 0);
         System.out.println("YES IT IS POSITIVE NUMBER and the number is : " + n);
         
-        //LOGIC
+        //LOGIC CHANGES
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=i;j++)
