@@ -1,3 +1,5 @@
+
+
 public class IfElseSample {
     public static void main(String[] args) {
         /*The below code is to check condititional statements
@@ -15,11 +17,14 @@ public class IfElseSample {
          b = a - b; // 10
          a = a - b; // 5
 
-        if(age > 20)
+        if(age > 20){
             System.out.println("Eligible");
-        else
-            System.out.println("Not eligible");
-
+            System.out.println("Inside if block");
+        }
+        System.out.println("After if block");
+        //else
+         //   System.out.println("Not eligible");
+//
         for(int i = 1; i<=5; i++)
             System.out.println(i);
             

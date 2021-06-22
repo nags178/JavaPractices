@@ -6,8 +6,8 @@ public class MyIOScanner {
          int num = validatePositiveNumber(sc);
         int k = validatePositiveNumber(sc);
         
-        // int num=0;
-       /*   do 
+       /*  int num=0;
+          do 
         {
             System.out.println("Enter the positive number");
             while (!sc.hasNextInt())
@@ -16,15 +16,13 @@ public class MyIOScanner {
                 sc.next();
             }
             num = sc.nextInt();
-        } while (num <=0);
+        } while (num <=0);*/
  
-        System.out.println("It's a number: "+ num);  */
+        System.out.println("It's a number: "+ num);  
     
         int r, sum=0,
         temp=num; 
-       // String s="hello";
-       // s="helloworld";
-      //  System.out.println(s);
+       
          while (num != 0)
          {
              r=num%10;
@@ -38,6 +36,9 @@ public class MyIOScanner {
           sc.close();
     }
 
+
+
+
     static int validatePositiveNumber(Scanner scanner) {
         
         int number;
@@ -48,7 +49,7 @@ public class MyIOScanner {
                 System.out.printf("\"%s\" is not a valid number. Please enter valid number\n", input);
             }
             number = scanner.nextInt();
-        } while (number < 0);
+        } while (number <= 0);
 
         System.out.printf("You have entered a positive number %d.\n", number);
         return number;
