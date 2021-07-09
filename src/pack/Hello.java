@@ -13,10 +13,12 @@ class Hello {
     }
 
     public static void main(String[] args) {
-        Test tObj = new Test();
-        newpack.Test testObj = new newpack.Test();
-        System.out.println();
-        Scanner
+        
+
+      //  Test tObj = new Test();
+      //  newpack.Test testObj = new newpack.Test();
+      //  System.out.println();
+       // Scanner
 
         //testObj.i
         

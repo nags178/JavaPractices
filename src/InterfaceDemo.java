@@ -21,6 +21,7 @@ interface MultiInterface {
 interface Interface1 extends NewInterface,MultiInterface{
     int i = 4;
     void newMethod();
+    
     default void otherMethod(){
         System.out.println("In default method parent in Interface1");
     }
