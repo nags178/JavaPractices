@@ -46,4 +46,6 @@ public class StringsDemo {
       System.out.println("My capacity before "+strBuild.capacity());
       System.out.println(str);
     }
+
+    
 }
