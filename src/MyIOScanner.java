@@ -5,6 +5,7 @@ public class MyIOScanner {
         Scanner sc= new Scanner(System.in);
          int num = validatePositiveNumber(sc);
         int k = validatePositiveNumber(sc);
+        // adddig one comment
         
        /*  int num=0;
           do 

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TypecastingDemo",
+            "request": "launch",
+            "mainClass": "TypecastingDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
             "name": "Launch GFG",
             "request": "launch",
             "mainClass": "GFG",
