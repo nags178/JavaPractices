@@ -1,4 +1,5 @@
 public class Example {
+
     static int factorial(int n) {
        int fact = 1;
        int i = 1;
@@ -14,6 +15,10 @@ public class Example {
        System.out.println("Permutation: " + per);
        comb = factorial(n) / (factorial(r) * factorial(n-r));
        System.out.println("Combination: " + comb); */
+
+       Example ecampleObj = new Example();
+
+       
        int f =1, n=1,i, j;
        int count = 0;
        /* for( j=1;j<=5;j++){

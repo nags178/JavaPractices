@@ -9,8 +9,9 @@ import Patterns.AlphabetPattern30;
 //import newpack.subpack.Test1;
 
 
-class Hello {
-    void display() 
+public class Hello {
+    
+    public void display() 
     { 
         System.out.println("In Hello Class Display"); 
         

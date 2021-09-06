@@ -50,7 +50,7 @@ public class MyTest{
             System.out.println(k);
         }
 
-        System.out.println(k);
+       // System.out.println(k);
     }
 
 }

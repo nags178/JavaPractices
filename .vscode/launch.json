@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScannerTest",
+            "request": "launch",
+            "mainClass": "ScannerTest",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test1",
+            "request": "launch",
+            "mainClass": "Test1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Car",
+            "request": "launch",
+            "mainClass": "Car",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestClass",
+            "request": "launch",
+            "mainClass": "TestClass",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
             "name": "Launch TypecastingDemo",
             "request": "launch",
             "mainClass": "TypecastingDemo",

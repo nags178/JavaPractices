@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class MyIOScanner {
     public static void main(String args[]){
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
          int num = validatePositiveNumber(sc);
-        int k = validatePositiveNumber(sc);
+       // int k = validatePositiveNumber(sc);
         // adddig one comment
         
        /*  int num=0;
