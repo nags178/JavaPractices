@@ -2,7 +2,11 @@ public class Employee { // extends Object {
     String empName;
     float salary = 10.0f;
 
-     static void display(){
+    final void myDisplay(){
+        System.out.println("In final mydisplay method");
+    }
+
+    protected static void display(){
         System.out.println("In employee display");
     }
 

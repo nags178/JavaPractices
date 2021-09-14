@@ -6,12 +6,15 @@ public class IO {
         System.out.println("This is standrad output");
         int a,b,c=0;
         String str1, str2, str3 = "";
-       Scanner sc = new Scanner(System.in);
-       sc.useDelimiter("#");  
-        System.out.println("Take input from user:");
+        String str = "hello Team. This is our java trainign program";
+       Scanner sc = new Scanner(str);
+      // sc.useDelimiter("#");  
+       // System.out.println("Take input from user:");
         str1 = sc.next();
         str2 = sc.next();
         str3 = sc.next();
+        String str4 = sc.next();
+        
        // a = sc.nextInt();
        // a = sc.nextInt(); 
        // System.out.println(str1);

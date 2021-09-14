@@ -8,10 +8,20 @@ public class Programmer extends Employee{
         //super.display();
     }
 
-    static void display(){
+    //final void myDisplay(){
+
+  //  }
+
+  final void myDisplay(int i){
+      
+  }
+
+    protected static void display(){
         System.out.println("In child display ");
         display();     
     }
+
+    // private < default < protected < public 
 
     Programmer(){
       // super();
@@ -24,5 +34,7 @@ public class Programmer extends Employee{
         Programmer pObj = new Programmer();
         System.out.println(pObj.salary);
         pObj.display();
+        pObj.myDisplay();
+        //Employee.display();
     }
 }
