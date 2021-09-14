@@ -1,9 +1,11 @@
+
+
 public class InnerClassDemo {
     int a;
     static int b;
     private int c;
     //protected static class Inner_Class{
-      private class Inner_Class{
+       class Inner_Class{
         static final int x = 5;
         //static int w = 1;
         int num;

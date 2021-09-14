@@ -1,4 +1,6 @@
- class Car{
+import TestPack.TestObject;
+
+class Car{
     int size;
     String model;
     static String s = "Techie";
@@ -54,11 +56,12 @@
 
         Test1.lastName = "New Org";
 
-        TestObject testObj2 = new TestObject(15,25,"nag");
-        testObj2.display();
+        //TestObject testObj2 = new TestObject(15,25,"nag");
+        //testObj2.display();
+        ///    System.out.println(testObj2.b);
       //  System.out.println(TestObject.i);
 
-     //   TestObject testObj22 = new TestObject(15,25);
+       //TestObject testObj22 = new TestObject();
       //  testObj22.display();
 
        // System.out.println(Test1.lastName);
@@ -94,9 +97,7 @@ public class Test1 {
 
         testObj.display();
 
-        TestObject testObj2 = new TestObject();
-        testObj2.display();
-        System.out.println(TestObject.i);
+        
 
         
         testObj.myDisplay();

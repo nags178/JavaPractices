@@ -1,5 +1,12 @@
 package newpack;
 
 public class Test {
-   public int i = 20;
+   public int x = 20;
+
+   //public Test(){
+
+  // }
 }
+
+
+ 

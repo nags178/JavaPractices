@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestObject",
+            "request": "launch",
+            "mainClass": "TestPack.TestObject",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubAccountant",
+            "request": "launch",
+            "mainClass": "SubAccountant",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Programmer",
+            "request": "launch",
+            "mainClass": "Programmer",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Addition",
+            "request": "launch",
+            "mainClass": "Addition",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyPackTest",
+            "request": "launch",
+            "mainClass": "newpack.MyPackTest",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopingConstructsDemo",
+            "request": "launch",
+            "mainClass": "LoopingConstructsDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LocalClassDemo",
+            "request": "launch",
+            "mainClass": "LocalClassDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticNestedClassDemo1$MyStaticClass",
+            "request": "launch",
+            "mainClass": "StaticNestedClassDemo1$MyStaticClass",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedClassDemo1",
+            "request": "launch",
+            "mainClass": "NestedClassDemo1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchDemo",
+            "request": "launch",
+            "mainClass": "SwitchDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch OtherClass",
+            "request": "launch",
+            "mainClass": "TestPack.OtherClass",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperatorsDemo",
+            "request": "launch",
+            "mainClass": "OperatorsDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
             "name": "Launch ScannerTest",
             "request": "launch",
             "mainClass": "ScannerTest",

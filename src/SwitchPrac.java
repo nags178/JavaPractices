@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SwitchPrac{
     final static int x = 100;
     public static void main(String[] args) {
-        String myInput = "This is Nag. This is my input";
+        /* String myInput = "This is Nag. This is my input";
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Name: ");
         String name = scanner.next();
@@ -15,24 +15,34 @@ public class SwitchPrac{
         System.out.println("Enetered Input value is "+name);
         System.out.println("Other value : "+name1);
         System.out.println("My inte value: "+y);
-        scanner.close();
-       /* Integer number = 100; // number to check
-        char ch = 'Y';
+        scanner.close(); */
+       Integer number = 100; // number to check
+        char ch = 'A';
         String level = "One";
         int b = 50;
-        switch (ch) {
-            case 'X'|'x':
-                System.out.println("10");
-                break; 
-            case 'Y':
+       // int i = 1;
+       char l =  switch(ch) {
+            //int i = 10;
+            case 'X'|'x' -> { // as u give block the scope is limited to its own case
+                int i = 10; // not limited to this case. limited to entire switch
+                // i = 10;
+                System.out.println(i);
+                yield 'A';
+            }
+            case 'Y', 'y', 'A', 'a' -> {
+                int j = 10;
+                //i = 5;
                 System.out.println("20");
-                break;
-            
-            default:
-                System.out.println("No case is matched");
-                
-        } 
-      //  System.out.println("After switch");*/
+                System.out.println("in 20 case : "+j);
+                yield 'B';
+            }
+            default -> {
+                //j = 0;
+                System.out.println("No case is matched ");
+                yield 80;
+            }
+        };
+        System.out.println("After switch : "+l);
         // Basic for loop
        /* for(int i = 1; i <= 5; i++){
             if(i == 3){

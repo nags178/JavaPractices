@@ -1,12 +1,12 @@
 
 
-public class IfElseSample {
+ class IfElseSample {
     public static void main(String[] args) {
         /*The below code is to check condititional statements
         }*/
 
         int age = 19;
-        int weight = 60;
+        int weight = 50;
         String gender = "male";
         /**
          Below is to check the age for eligilibility
@@ -17,24 +17,56 @@ public class IfElseSample {
          b = a - b; // 10
          a = a - b; // 5
 
-        if(age > 20){
-            System.out.println("Eligible");
+        if(age >= 18){
+            if(weight >= 60){
+                if(true){
+
+                }
+             System.out.println("Eligible");
+            }else{
+                
+                System.out.println("Not eligible as per weight category");
+            }
             System.out.println("Inside if block");
         }
-        System.out.println("After if block");
-        //else
-         //   System.out.println("Not eligible");
-//
-        for(int i = 1; i<=5; i++)
-            System.out.println(i);
-            
-            System.out.println("After for");
+        else {
+            System.out.println("Not eligible as per age criteria");
+            //System.out.println("After if block");
+        }
+        /*int year = 2020;
+
+        if((year % 4 == 0 && year % 100 != 0) || year % 400 == 0){
+            System.out.println("Its an leap year");
+        }
+        else
+            System.out.println("Not an leap year"); */
+      /*
+            int marks = 65;
+            if(marks<40){
+                System.out.println("Failed");
+            }
+            else if(marks>=40 && marks<50){
+                System.out.println("D grade");
+            }
+            else if(marks>=50 && marks<60){
+                System.out.println("C grade");
+            }
+            else if(marks>=60 && marks<70){
+                System.out.println("B grade");
+            }
+            else if(marks>=70)
+            {
+                System.out.println("A grade");
+            }
+            else{
+                System.err.println("Invalid value");
+            }
         
        // System.out.println("Good to donate");
 
         
 
-       /* if(age > 18){
+        if(age > 18){
             if(gender == "female"){
                 if(weight > 50){
                     System.out.println("female eligible");

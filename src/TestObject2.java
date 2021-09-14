@@ -1,4 +1,5 @@
 import Patterns.TestPattern;
+import TestPack.TestObject;
 
 class TestStudent1{
    private int b = 5;
@@ -18,7 +19,7 @@ public class TestObject2 extends TestPattern{ // Driver class - which is having 
     }
 
     public static void main(String[] args) {
-        System.out.println(TestObject.i);
+        //System.out.println(TestObject.i);
        // Student1 studentObj = new Student1();
       //  System.out.println(studentObj.name);
         
