@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class LoopingConstructsDemo {
+  static int k = 10;
  public static void main(String[] args) {
+    
     /* int num = 10;
     // Simple for loop
      for(int i = 1; i <= num; i++){
@@ -44,13 +48,20 @@ public class LoopingConstructsDemo {
 
      //do - while loop
 
-     int i = 1;
+     int i;
+     
+     Scanner scannerObj = new Scanner(System.in);
+     i = scannerObj.nextInt();
+     scannerObj.close();
+     //System.out.println("1");
      myLoop:
      do{
-         
+        //System.out.println("2");
+         k++;
         i++;
          if(i == 5)
-            continue myLoop;
+            break myLoop;
+            //System.out.println("3");
         System.out.println("In loop value - "+i);
         
      }while(i<=10);

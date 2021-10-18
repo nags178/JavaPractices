@@ -5,12 +5,13 @@ import newpack.subpack.Test1;
 //import newpack.PyramidWithNumbers;
 
 
-public class Test {
+ public class Test {
     protected int k;
+    int l;
 
     public int i = 10;
 
-     void testDisplay(){
+     public void testDisplay(){
         System.out.println("In test class display");
     }
     public static void main(String[] args) {

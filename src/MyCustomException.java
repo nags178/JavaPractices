@@ -12,16 +12,19 @@ class InvalidInput extends Exception{
     }
 }
 
-public class MyCustomException {
- public static void main(String[] args) {
-     int age = 0;
+public class MyCustomException  {
+ public static void main(String[] args) throws InvalidAgeException, InvalidInput, ArithmeticException {
+     int age = 10;
    
         validate(age);
     
  }
  
- static void validate(int age)  {
-    try{
+ static void validate(int age) throws InvalidAgeException, InvalidInput {
+    if(age == 5){
+        ArithmeticException ae = new ArithmeticException("My value is 5");
+        throw ae;
+    }
     if(age==0){
         throw new InvalidInput("wrong input");
     }
@@ -29,10 +32,6 @@ public class MyCustomException {
         throw new InvalidAgeException("not valid");  
         else  
     System.out.println("welcome to vote"); 
-    } catch(InvalidAgeException e){
-        System.out.println("My Exception is "+e);
-    }catch(InvalidInput ie){
-        System.out.println("My Exception is "+ie);
-    }
+    
  }
 }

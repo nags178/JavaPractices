@@ -6,6 +6,181 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterfaceClass",
+            "request": "launch",
+            "mainClass": "InterfaceClass",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interface_1",
+            "request": "launch",
+            "mainClass": "Interface_1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionHandlingDemo",
+            "request": "launch",
+            "mainClass": "ExceptionHandlingDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractClass1",
+            "request": "launch",
+            "mainClass": "AbstractClass1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch AbstractClassDemo",
+            "request": "launch",
+            "mainClass": "AbstractClassDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubClass1",
+            "request": "launch",
+            "mainClass": "SubClass1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch InheritanceDemoNew",
+            "request": "launch",
+            "mainClass": "InheritanceDemoNew",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysDemo",
+            "request": "launch",
+            "mainClass": "ArraysDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticNestedClassNew$StaticInner",
+            "request": "launch",
+            "mainClass": "StaticNestedClassNew$StaticInner",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticNestedClassNew",
+            "request": "launch",
+            "mainClass": "StaticNestedClassNew",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedClassDemo11",
+            "request": "launch",
+            "mainClass": "pack.NestedClassDemo11",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderDemo",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch NestedClassDemoNew",
+            "request": "launch",
+            "mainClass": "NestedClassDemoNew",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBufferDemo",
+            "request": "launch",
+            "mainClass": "StringBufferDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsDemoNew",
+            "request": "launch",
+            "mainClass": "StringsDemoNew",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MethodsDemoNew",
+            "request": "launch",
+            "mainClass": "MethodsDemoNew",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyStudent",
+            "request": "launch",
+            "mainClass": "MyStudent",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyClassDemo",
+            "request": "launch",
+            "mainClass": "MyClassDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MySample",
+            "request": "launch",
+            "mainClass": "MySample",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyInterfaceDemo",
+            "request": "launch",
+            "mainClass": "MyInterfaceDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyInterface1",
+            "request": "launch",
+            "mainClass": "MyInterface1",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyAbstractClassDemo",
+            "request": "launch",
+            "mainClass": "MyAbstractClassDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyAbstarctClass",
+            "request": "launch",
+            "mainClass": "MyAbstarctClass",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubProgrammer",
+            "request": "launch",
+            "mainClass": "SubProgrammer",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
             "name": "Launch TestObject",
             "request": "launch",
             "mainClass": "TestPack.TestObject",

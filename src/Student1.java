@@ -11,6 +11,8 @@ class Student1 {
         System.out.println("In student1 class method");
     }
 
+    
+
     public static void main(String[] args) {
         Student stuObj = new Student();
        // stuObj.y = 10;

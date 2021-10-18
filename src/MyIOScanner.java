@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class MyIOScanner {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-         int num = validatePositiveNumber(sc);
-       int k = validatePositiveNumber(sc);
+        MyIOScanner myObj = new MyIOScanner();
+         int num = myObj.validatePositiveNumber(sc);
+       int k = myObj.validatePositiveNumber(sc);
+       int l = myObj.validatePositiveNumber(sc);
+       sc.close();
         // adddig one comment
         
        /*  int num=0;
@@ -34,26 +37,29 @@ public class MyIOScanner {
          System.out.println(temp+" is a Palidrome number");
          else
           System.out.println(temp+" not a palidrome number");
-          sc.close();
+         
     }
 
 
 
 
-    static int validatePositiveNumber(Scanner scanner) {
-        
+     int validatePositiveNumber(Scanner scanner) {
+         
         int number;
         do {
             System.out.print("Please enter a positive number: ");
             while (!scanner.hasNextInt()) {
                 String input = scanner.next();
-                System.out.printf("\"%s\" is not a valid number. Please enter valid number\n", input);
+                System.out.println(input+" is not a valid number. Please enter valid number");
             }
             number = scanner.nextInt();
         } while (number <= 0);
 
-        System.out.printf("You have entered a positive number %d.\n", number);
+        System.out.println("You have entered a positive number "+ number);
+       
         return number;
+       
+        
     }
     
 }

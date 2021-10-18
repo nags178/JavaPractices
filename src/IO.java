@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class IO {
+
+  
     public static void main(String[] args) {
        // System.err.println("Hello this is error message");
         System.out.println("This is standrad output");
