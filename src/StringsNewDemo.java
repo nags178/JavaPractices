@@ -1,8 +1,15 @@
 public class StringsNewDemo extends StringsDemo{
     public static void main(String[] args) {
-        String s = "Hello Team";
-        String s1 = new String();  // some memory in heap
-        s1 = "Hi"; //it creates new instance and points that memory location to s1
+        String s = "Hello Team"; // String literals
+        String s1 = new String("Hi");  // some memory in heap
+        String ss = new String();
+        s = s.concat(" Welcome"); // Strings are immutable -  which annot be changed
+        System.out.println(s+"");
+       
+       
+       
+       
+        String s11 = "Hi"; //it creates new instance and points that memory location to s1
         String s2 = new String("Welcome");
         char ch[]={'h','e','l','l','o'};
         String s3 = new String(ch);

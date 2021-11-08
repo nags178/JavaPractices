@@ -6,6 +6,118 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BasicSample",
+            "request": "launch",
+            "mainClass": "BasicSample",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaConversions",
+            "request": "launch",
+            "mainClass": "JavaConversions",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Derived",
+            "request": "launch",
+            "mainClass": "Derived",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReferenceTypeCasting",
+            "request": "launch",
+            "mainClass": "ReferenceTypeCasting",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimitiveTypeCasting",
+            "request": "launch",
+            "mainClass": "PrimitiveTypeCasting",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyNewCustomException",
+            "request": "launch",
+            "mainClass": "MyNewCustomException",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionHandlingNewDemo",
+            "request": "launch",
+            "mainClass": "ExceptionHandlingNewDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayDuplicatesRemoval",
+            "request": "launch",
+            "mainClass": "ArrayDuplicatesRemoval",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Season",
+            "request": "launch",
+            "mainClass": "Season",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumSampleDemo",
+            "request": "launch",
+            "mainClass": "EnumSampleDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyArrayDemo",
+            "request": "launch",
+            "mainClass": "MyArrayDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateDemo",
+            "request": "launch",
+            "mainClass": "DateDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBuilderNewDemo",
+            "request": "launch",
+            "mainClass": "StringBuilderNewDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringBufferNewDemo",
+            "request": "launch",
+            "mainClass": "StringBufferNewDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TypeCastingNewDemo",
+            "request": "launch",
+            "mainClass": "TypeCastingNewDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsOtherDemo",
+            "request": "launch",
+            "mainClass": "StringsOtherDemo",
+            "projectName": "JavaPractices_ab09439e"
+        },
+        {
+            "type": "java",
             "name": "Launch InterfaceClass",
             "request": "launch",
             "mainClass": "InterfaceClass",
